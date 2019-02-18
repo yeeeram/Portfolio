@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Yearam Youk</title>
+</head>
+
+<style>
+  @charset "utf-8";
+
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+
+  .rwd {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .text-1 {
+    color: rgb(56, 56, 56);
+    font-size: 26px;
+    font-family: 'NotoSansKR';
+  }
+
+  .text-2 {
+    color: rgb(56, 56, 56);
+    font-size: 24px;
+  }
+
+  .text-3 {
+    color: rgb(56, 56, 56);
+    font-size: 14px;
+  }
+
+  .background {
+    background-color: white;
+  }
+
+  .header {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-content: center;
+    border-bottom: 1px solid rgb(180, 180, 180);
+  }
+
+  .header h1 {
+    font-size: 16px;
+    font-family: 'NotoSansKR';
+  }
+
+  .main-menu {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding-right: 30px;
+  }
+
+  .main-menu a {
+    margin: 0 20px;
+    text-decoration: none;
+    font-family: 'NotoSansKR';
+    font-size: 14px;
+  }
+
+  .branding {
+    margin: 0;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+  }
+
+  .footer {
+    padding: 30px 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top: 1px solid rgb(180, 180, 180);
+  }
+
+  .contact {
+    list-style-type: none;
+    display: flex;
+    align-items: flex-end;
+  }
+
+  .contact a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: black;
+  }
+  .works img{
+    width: 200px;
+    height: 140px;
+    margin: 10px;
+  }
+  .works{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .wrapper1 {
+    margin: 60px 40px;
+  }
+/* .dark-bg{
+ position: relative;
+ top: 0;
+ left: 0;
+ color: black;
+}
+.dark-bg::before{
+  position: absolute;
+  width: 200px;
+  height: 140px;
+  top: 0;
+  left: 0;
+  transition: all 0.4s;
+}
+.dark-bg:hover::before{
+  content: "Mobile UX Design";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: inherit;
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.8);
+} */
+
+</style>
+
+<body>
+  <div class="header">
+    <H1 class="branding">YEARAM YOUK
+    </H1>
+    <nav class="navigation">
+      <ul class="main-menu">
+        <li><a href="Porfolio1.html">HOME</a></li>
+        <li><a href="Work.html">WORK</a></li>
+        <li><a href="About.html">ABOUT</a></li>
+      </ul>
+    </nav>
+  </div>
+  <div class="wrapper1">
+    <h1 class="text-1">2019</h1>
+    <div class="works"></div>
+    <h1 class="text-1">2018</h1>
+    <div class="works">
+      <div class="work1">
+      <a href="Hyundai.html" class="dark-bg">
+      <img src="img/hyundais.png" class="rwd" alt="">
+      </a></div>
+      <div class="work2">
+      <a href="Weather.html" class="dark-bg">
+      <img src="img/weathers.png" class="rwd" alt="">
+      </a></div>
+      <div class="work3">
+      <a href="Melon.html" class="dark-bg">
+      <img src="img/melons.png" class="rwd" alt="">
+      </a></div>
+      <div class="work4">
+      <a href="Imcre.html" class="dark-bg">
+      <img src="img/imcres.png" class="rwd" alt="">
+      </a></div>
+      </div>
+    </div>
+
+  <div class="footer">
+    <ul class="contact">
+      <li><a href="mailto:yeeeram@gmail.com?subject=문의사항">yeeeram@gmail.com</a></li>
+      <li><a href="#" target="_blank">LinkedIn</a></li>
+      <li><a href="#" target="_blank">Facebook</a></li>
+      <li><a href="#" target="_blank">Instargram</a></li>
+    </ul>
+    <small class="copyright">
+      Website design and content &copy; 2018 Yearam Youk.
+    </small>
+  </div>
+</body>
+
+</html>

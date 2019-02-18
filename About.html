@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Yearam Youk</title>
+</head>
+
+<style>
+@charset "utf-8";
+*, *::before, *::after{
+  box-sizing: border-box;
+}
+.rwd{
+  max-width: 100%;
+  height: auto;
+}
+.text-1{
+  color: rgb(56, 56, 56);
+  font-size: 26px;
+}
+.text-2{
+  color: rgb(56, 56, 56);
+  font-size: 24px;
+}
+.text-3{
+  color: rgb(56, 56, 56);
+  font-size: 14px;
+}
+.body{
+  color: rgb(56, 56,56);
+  font-family: 'NotoSansKR';
+  font-size: 15px;
+  line-height: 22px;
+}
+.background{
+  background-color:white;
+}
+.header {
+      display: flex;
+      flex-wrap: nowrap;
+      justify-content: space-between;
+      align-content: center;
+      border-bottom: 1px solid rgb(180, 180, 180);
+    }
+    .header h1 {
+      font-size: 16px;
+      font-family: 'NotoSansKR';
+    }
+    .main-menu {
+      display: flex;
+      justify-content: center;
+      list-style-type: none;
+      padding-right: 30px;
+    }
+    .main-menu a {
+      margin: 0 20px;
+      text-decoration: none;
+      font-family: 'NotoSansKR';
+      font-size: 14px;
+    }
+    .branding {
+      margin: 0;
+      padding-left: 10px;
+      display: flex;
+      align-items: center;
+    }
+    .footer {
+     padding: 30px 0 20px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     border-top: 1px solid rgb(180, 180, 180);
+     }
+    .contact{
+      list-style-type: none;
+      display: flex;
+      align-items: flex-end;
+    } 
+    .contact a{
+      margin: 0 10px;
+      text-decoration: none;
+      color: black;
+    }
+    .wrapper{
+      display: flex;
+      justify-content: space-around;
+    }
+    .content li{
+      letter-spacing: 10px;
+      list-style-type: none;
+    }
+    .text1{
+      border-bottom: 1px solid rgb(180, 180, 180);
+      margin: 50px 20px 20px 0;
+      width: 550px;
+    }
+    .text2{
+      border-bottom: 1px solid rgb(180, 180, 180);
+      margin: 20px 20px 20px 0;
+      width: 550px;
+    }
+    .text3{
+      margin: 20px 20px 60px 0;
+      width: 550px;
+    }
+    .content p{
+      margin-left: 120px;
+      line-height: 30px;
+      letter-spacing: 1px;
+    }
+    .image img{
+      width: 450px;
+      height: 600px;
+    }
+
+</style>
+<body>
+  <div class="header">
+    <H1 class="branding">YEARAM YOUK
+    </H1>
+    <nav class="navigation">
+      <ul class="main-menu">
+        <li><a href="Porfolio1.html">HOME</a></li>
+        <li><a href="Work.html">WORK</a></li>
+        <li><a href="About.html">ABOUT</a></li>
+      </ul>
+    </nav>
+  </div>
+  <div class="wrapper">
+<div class="image">
+  <img src="img/me1.png"alt="">
+</div>
+<ul class="content">
+  <div class="text1">
+  <li class="text-2">학력사항</li>
+  <p class='body'>2018.08 - 2018.10<br>Fast Campus<br>UX/UI Design School 수료
+  <br></p><p class='body'>2010.03 - 2012.02<br>명지전문대학<br>패션 텍스타일/세라믹학과 졸업
+  <br></p><p class='body'>2007.03 - 2010.02<br>수원정보과학고등학교<br>디자인과 졸업<br></p>
+  </div>
+  <div class="text2">
+  <li class="text-2">경력사항</li>
+  <p class='body'>2018.11 - 2018.12<br>산학협력 프로젝트(Duotone 에이전시)<br>UX/UI 모바일 디자인 기획팀</p>
+  <p class='body'>2016.12 - 2018.07<br>베네데프 이노베이션즈(SLOW STEADY CLUB)
+    <br>해외영업 및 사무보조</p>
+  <p class='body'>2015.09 - 2016.10<br>Blenz coffee<br>바리스타 및 매장관리</p>
+  <p class='body'>2014.05 - 2015.01<br>젠틀가이즈<br>사무보조 및 상세페이지 디자인</p>
+  <p class='body'>2013.01 - 2014.03<br>꼼데가르송 플래그쉽 스토어<br>매장관리 및 제품판매</p>
+  <p class='body'>2011.08 - 2012.05<br>Ecru(의류편집숍)<br>매장관리 및 제품판매</p>
+  </div>
+  <div class="text3">
+  <li class="text-2">자격증&주요활동</li>
+  <p class='body'>2015.09 - 2016.11<br>Working Holiday<br>Vancouver in Canada</p>
+  <p class='body'>2009.07<br>컴퓨터그래픽스운용기능사 자격증 취득</p></div>
+</ul>
+</div>
+  <div class="footer">
+    <ul class="contact">
+      <li><a href="mailto:yeeeram@gmail.com?subject=문의사항">yeeeram@gmail.com</a></li>
+      <li><a href="#" target="_blank">LinkedIn</a></li>
+      <li><a href="#" target="_blank">Facebook</a></li>
+      <li><a href="#" target="_blank">Instargram</a></li>
+    </ul>
+    <small class="copyright">
+      Website design and content &copy; 2018 Yearam Youk.
+    </small>
+  </div>
+</body>
+</html>
